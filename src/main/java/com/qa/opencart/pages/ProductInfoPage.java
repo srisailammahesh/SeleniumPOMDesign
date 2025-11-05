@@ -1,6 +1,4 @@
 package com.qa.opencart.pages;
-
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
@@ -13,7 +11,6 @@ import com.qa.opemcart.constants.AppConstants;
 import com.qa.opencart.utils.ElementUtil;
 
 public class ProductInfoPage {
-
 
 	private WebDriver driver;
 	private ElementUtil eleUtil;
@@ -90,4 +87,5 @@ public class ProductInfoPage {
 		productMap.put("extaxprice", exTaxValue);
 
 	}
+
 }
